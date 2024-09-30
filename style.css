@@ -1,0 +1,107 @@
+body {
+    background: url(./images/background.png);
+}
+
+.wrapper {
+    margin: auto;
+    width: 65%;
+}
+
+.headerImage {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    background-color: red;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a :hover {
+    color: yellow;
+}
+
+.topContainer {
+    background: url(./images/topbkg.png);
+    display: flex;
+    flex-direction: column;
+    font-family: vivaldi;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title {
+
+}
+
+.title2 {
+    font-size: 40px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.homeImage {
+    width: 300px;
+    height: 220px;
+}
+
+.midContainer {
+    background: url(./images/midbkg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeDescription {
+    width: 60%;
+    text-align: justify;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.footer {
+    background: url(./images/botbkg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 85px;
+}
+
+.copyright {
+    font-size: 18px;
+    font-family: vivaldi;
+}
+
+.itemContainer {
+    display: flex;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+.productImage {
+    width: 250px;
+    height: 180px;
+}
+
+.itemDetailContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
